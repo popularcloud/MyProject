@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!" />
+
+    <Button
+        android:id="@+id/secondPage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="打开第二个页面"
+        android:padding="10dp"
+        android:gravity="center"
+        />
+    <Button
+        android:id="@+id/exitApp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="退出应用"
+        android:padding="10dp"
+        android:gravity="center"
+        />
+
+    <Button
+        android:id="@+id/visitBrowser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="访问浏览器"
+        android:padding="10dp"
+        android:gravity="center"
+        />
+</LinearLayout>
